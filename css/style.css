@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+:root{
+  background-color: #f3f2ef;
+}
+
+.container {
+  width: 1128px;
+  margin: 0 auto;
+}
+
+.wrapper-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.body-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-bar-section {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+}
+
+.identity-bg-image {
+  background-image: url("../images/bg-image.JPG");
+  background-position: center;
+  background-size: cover;
+  display: block;
+  height: 56.25px;
+  margin: -12px -12px 0;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.profile-details-section {
+  border-bottom: 1px solid black;
+  padding: 12px 12px 16px;
+}
+
+.profile-pic-section {
+  text-align: center;
+}
+
+.profile-pic-section a {
+  color: black;
+  text-decoration: none;
+}
+
+.profile-pic-section-image img {
+  width: 64px;
+  height: 64px;
+  margin: -38px auto 12px;
+  border: 2px solid #fff;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.view-connections-section {
+  margin-top: 12px !important;
+  margin-bottom: 12px !important;
+}
+
+.entry-list .row {
+  display: flex;
+  flex-direction: column;
+}
+
+.entry-list {
+  list-style-type: none;
+}
+
+.entry-list-item {
+  list-style-type: none;
+}
+
+.entry-list-item a {
+  display: block;
+  padding: 4px 12px;
+}
+
+.entry-item-viewed {
+  display: flex !important;
+  align-items: baseline !important;
+  justify-content: space-between;
+}
+
+.entry-item a {
+  color: black;
+  text-decoration: none;
+}
+
+.entry-item-viewed-left span {
+  text-align: left;
+  font-size: 15px;
+}
+.entry-item-viewed-right span {
+  text-align: right;
+  font-size: 15px;
+}
+
+.entry-item-viewed-right span {
+  color: #411f10;
+}
+
+.identity-block p {
+  margin-top: 4px !important;
+  font-size: 14px;
+}
+
+.premium-section {
+  padding: 12px;
+}
+.premium-for-free {
+  display: flex;
+}
+
+/* .premium-for-free span {
+  font-size: 12px;
+} */
+
+.premium-section h3 {
+  font-size: 13px;
+}
+
+.premium-section a {
+  color: black;
+  text-decoration: none;
+}
+
+.my-terms {
+  padding: 12px !important;
+  display: block;
+  border-top: 1px solid black;
+}
+
+.my-terms a {
+  color: black;
+  text-decoration: none;
+}
+
+.side-bar-sticky-content-section {
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: coral;
+}
+
+.recent-content {
+  margin-bottom: 16px;
+}
+
+.recent-content-header {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+
+/* Aside Section */
+
+.outer-card {
+  margin-bottom: 8px !important;
+}
+
+.feed-follows-module {
+  padding: 12px;
+}
+.aside-card-view {
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.feed-follow-module-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feed-icon {
+  color: black;
+  margin-top: 4px;
+  list-style-type: none;
+}
+
+.feed-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.feed-follow-module-header p {
+  font-size: 20px;
+}
+
+.feed-follow-module {
+  margin-top: 16px;
+}
+
+.feed-follow-module-list li {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.feed-follow-module-list {
+  margin-top: 16px;
+}
+
+.feed-follow-module-member-avatar {
+  align-self: flex-start;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.module-member-description {
+  display: block;
+  line-height: 2rem !important;
+  max-height: 6rem;
+  margin-bottom: 4px;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.module-memebr-description-name {
+  display: flex;
+}
+
+.follow-button {
+  display: flex;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 1.6rem !important;
+  padding-left: 1.6rem !important;
+  padding-right: 1.6rem !important;
+  background-color: hsl(0deg 0% 100% / 0%);
+  color: rgb(0 0 0 / 60%);
+  box-shadow: inset 0 0 0 1px var(--color-border);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.follow-button-list-type {
+  list-style-type: none;
+  margin: 0 4px 0 -12px;
+  display: inline-block;
+}
+
+.member-details {
+  display: block;
+  line-height: 20px !important;
+  max-height: 4rem;
+  margin-bottom: 4px;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.member-details a {
+  text-decoration: none;
+  color: black;
+}
+
+.module-memebr-description-sub-text p {
+  font-size: 10px;
+}
+
+.feed-recommandation a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+.feed-recommandation p {
+  margin-right: 4px;
+}
+
+/* Aside Bottom Sticky Part */
+
+/* .aside-sticky-content{
+  border: 1px solid black;
+} */
+
+.sticky-banner-container {
+  border-radius: 0.8rem;
+  height: 200px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.sticky-footer-container {
+  background-color: transparent;
+  margin-top: 10px;
+}
+/* News Feed Section */
+
+.news-feed-section {
+  background-color: cadetblue;
+  flex-basis: 45%;
+}
+
+.aside-section {
+  flex-basis: 28%;
+  border-radius: 10px;
+}
+.side-bar-identity {
+  background-color: white;
+  /* padding: 5px 5px; */
+  border-radius: 15px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.side-bar-sticky-content {
+  padding: 10px 10px;
+}
+
+.feed-follow-module {
+  background-color: white;
+}
+
+.footer-compact-links {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 1.6rem 1rem;
+}
+
+.bottom-footer-content {
+  margin: 1.6rem 1rem;
+}
+
+.sticky-footer-container ul li {
+  margin: 0.4rem 0.8rem;
+  /* font-size: 1.6rem; */
+}
+
+.sticky-footer-container ul li a {
+  text-decoration: none;
+  color: black;
+}
+.bottom-footer-content {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  text-align: center;
+}
+/* @media (min-width: 320px) and (max-width: 419px){} */
