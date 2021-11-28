@@ -318,12 +318,12 @@
   border-color: white;
   align-items: center;
   margin-bottom: 8px;
+  background-color: unset;
 }
 
 .sort-by-button-hr {
   margin-right: 8px;
   flex-grow: 1;
-  background-color: #411f10;
 }
 
 .sort-by-span {
@@ -338,6 +338,7 @@
 
 .sort-button-right-section {
   display: flex;
+  background-color: unset;
 }
 
 /* Aside Section */
