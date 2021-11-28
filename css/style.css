@@ -967,11 +967,11 @@
   box-shadow: 0 0 0 2px #fff;
 }
 
-.social-reaction-button-span {
+/* .social-reaction-button-span {
 }
 
 .social-comments-count {
-}
+} */
 
 .feed-button-color {
   color: rgb(0 0 0 / 60%);
@@ -1013,6 +1013,7 @@
 
   .body-section{
     margin: 0px 30px;
+    justify-content: flex-end;
   }
 
   .aside-section {
