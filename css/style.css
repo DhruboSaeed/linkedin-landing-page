@@ -991,6 +991,7 @@
 
   .body-section{
     margin: 0px 30px;
+    justify-content: flex-end;
   }
 
   .aside-section {
